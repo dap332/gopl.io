@@ -11,12 +11,12 @@ package main
 import (
 	"fmt"
 	"os"
-	"strings"
 )
 
 //!+
 func main() {
-	fmt.Println(strings.Join(os.Args, "\n"))
+	for index, value := range os.Args {
+		fmt.Printf("%d\t%s\n", index, value)
+	}
 }
-
 //!-
