@@ -1,0 +1,19 @@
+go run 1.11.go http://yahoo.com http://google.com http://baidu.com http://youtube.com http://wikipedia.com http://amazon.com http://twitter.com http://qq.com http://imdb.com http://ebay.com http://office.com http://github.com http://bing.com http://sap.com http://microsoft.com http://twitch.tv 
+0.31s   59474 http://twitch.tv
+0.60s  241409 http://qq.com
+0.73s  211578 http://imdb.com
+1.27s      81 http://baidu.com
+1.32s  241955 http://sap.com
+1.67s  467332 http://amazon.com
+2.09s  188758 http://microsoft.com
+5.42s  297307 http://twitter.com
+5.87s   76143 http://wikipedia.com
+6.19s  119670 http://bing.com
+6.20s  296155 http://ebay.com
+6.21s   93778 http://github.com
+7.40s  405470 http://youtube.com
+Get http://www.google.com/: dial tcp [2607:f8b0:4006:805::2004]:80: connect: network is unreachable
+Get https://yahoo.com/: dial tcp [2001:4998:c:1023::4]:443: connect: network is unreachable
+10.25s   89455 http://office.com
+10.28s elapsed
+
